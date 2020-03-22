@@ -1,7 +1,7 @@
 # CRUD_EF_SqLite_Migrations
 Crud em C# utilizando Entity framework , SqLite , Migrations.
 
-#Migração#
+# Migração
 
 Criar uma migração. Gerar um código que pode atualizar o banco de dados para sincronizá-lo com um conjunto de alterações do modelo.
 
