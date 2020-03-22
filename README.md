@@ -34,8 +34,9 @@ Aplicar migrações em runtime. Quando as atualizações de tempo de design e a 
 # 5.Gerar scripts SQL:
   Script-Migration
  
-$ 6.Aplicar migrações em runtime:
+# 6.Aplicar migrações em runtime:
   myDbContext.Database.Migrate();
+
 
 
 Ver mais em:
