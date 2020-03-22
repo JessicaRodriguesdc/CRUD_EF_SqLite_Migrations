@@ -18,3 +18,29 @@ Gerar scripts SQL. Talvez seja necessário um script para atualizar um banco de 
 Aplicar migrações em runtime. Quando as atualizações de tempo de design e a execução de scripts não forem as melhores opções, chame o método Migrate().
 
 
+# 1.Criar uma migração: 
+  Add-Migration InitialCreate
+
+# 2.Atualizar o banco de dados:
+  Update-Database
+
+# 3.Personalizar o código de migração:
+  Add-Migration AddProductReviews
+
+# 4.Remover uma migração:
+  Remove-Migration
+  Update-Database LastGoodMigration
+  
+# 5.Gerar scripts SQL:
+  Script-Migration
+ 
+$ 6.Aplicar migrações em runtime:
+  myDbContext.Database.Migrate();
+
+
+Ver mais em:
+https://docs.microsoft.com/pt-br/ef/core/managing-schemas/migrations/?tabs=vs
+
+
+
+
